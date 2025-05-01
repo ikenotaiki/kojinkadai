@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// �֐��̃v���g�^�C�v�錾
+// 関数のプロトタイプ宣言
 void find_highest_scores(
     int scores[5][2],
     int *max_math, int *max_physics,
@@ -30,7 +30,7 @@ int main() {
                         &avg_math, &avg_physics, &max_total_score_student,
                         &total_math, &total_physics, &max_total_score);
 
-    // �o�́i���v�_�����ł��������k�̏o�͍͂폜�ς݁j
+    //出力一覧
     printf("数学の最高点数: %d\n", max_math);
     printf("物理の最高点数: %d\n", max_physics);
     printf("数学の最小点数: %d\n", min_math);
