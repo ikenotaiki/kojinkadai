@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// ŠÖ”‚Ìƒvƒƒgƒ^ƒCƒvéŒ¾
+// ï¿½Öï¿½ï¿½Ìƒvï¿½ï¿½ï¿½gï¿½^ï¿½Cï¿½vï¿½éŒ¾
 void find_highest_scores(
     int scores[5][2],
     int *max_math, int *max_physics,
@@ -30,14 +30,14 @@ int main() {
                         &avg_math, &avg_physics, &max_total_score_student,
                         &total_math, &total_physics, &max_total_score);
 
-    // o—Íi‡Œv“_”‚ªÅ‚à‚‚¢¶“k‚Ìo—Í‚ÍíœÏ‚İj
-    printf("”Šw‚ÌÅ‚“_”: %d\n", max_math);
-    printf("•¨—‚ÌÅ‚“_”: %d\n", max_physics);
-    printf("”Šw‚ÌÅ’á“_”: %d\n", min_math);
-    printf("•¨—‚ÌÅ’á“_”: %d\n", min_physics);
-    printf("”Šw‚Ì•½‹Ï“_”: %.2f\n", avg_math);
-    printf("•¨—‚Ì•½‹Ï“_”: %.2f\n", avg_physics);
-    printf("Å‚à‚‚¢‡Œv“_”: %d\n", max_total_score);
+    // ï¿½oï¿½Íiï¿½ï¿½ï¿½vï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½kï¿½Ìoï¿½Í‚Ííœï¿½Ï‚İj
+    printf("æ•°å­¦ã®æœ€é«˜ç‚¹æ•°: %d\n", max_math);
+    printf("ç‰©ç†ã®æœ€é«˜ç‚¹æ•°: %d\n", max_physics);
+    printf("æ•°å­¦ã®æœ€å°ç‚¹æ•°: %d\n", min_math);
+    printf("ç‰©ç†ã®æœ€å°ç‚¹æ•°: %d\n", min_physics);
+    printf("æ•°å­¦ã®å¹³å‡ç‚¹: %.2f\n", avg_math);
+    printf("ç‰©ç†ã®å¹³å‡ç‚¹: %.2f\n", avg_physics);
+    printf("åˆè¨ˆã®æœ€å¤§å¾—ç‚¹: %d\n", max_total_score);
 
     return 0;
 }
