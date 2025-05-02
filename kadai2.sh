@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 基準時刻（08:00:00）と現在時刻をUNIX時間に変換
+# 基準時刻（11:59）と現在時刻をUNIX時間に変換
 base_time=$(date -d "11:59" +%s)
 now_time=$(date +%s)
 
